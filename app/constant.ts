@@ -501,5 +501,5 @@ export const PLUGINS = [
   { name: "Search Chat", path: Path.SearchChat },
 ];
 
-export const SAAS_CHAT_URL = "https://lobechat.tx88.eu.org/chat";
-export const SAAS_CHAT_UTM_URL = "https://lobechat.tx88.eu.org/chat?utm=github";
+export const SAAS_CHAT_URL = "https://chatx.tx88.eu.org";
+export const SAAS_CHAT_UTM_URL = "https://chatx.tx88.eu.org?utm=github";
