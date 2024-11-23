@@ -308,94 +308,92 @@ const openaiModels = [
 ];
 
 const googleModels = [
-//  "gemini-1.5-pro-latest",
-//  "gemini-1.5-flash-latest",
-//  "gemini-exp-1114",
-//  "gemini-exp-1121",
-//  "learnlm-1.5-pro-experimental",
-//  "gemini-pro-vision",
+  "gemini-1.5-pro-latest",
+  "gemini-1.5-flash-latest",
+  "gemini-exp-1114",
+  "gemini-exp-1121",
+  "learnlm-1.5-pro-experimental",
+  "gemini-pro-vision",
 ];
 
 const anthropicModels = [
-//  "claude-3-opus-20240229",
-//  "claude-3-opus-latest",
-//  "claude-3-5-haiku-20241022",
-//  "claude-3-5-haiku-latest",
-//  "claude-3-5-sonnet-20240620",
-//  "claude-3-5-sonnet-20241022",
-//  "claude-3-5-sonnet-latest",
+  "claude-3-opus-20240229",
+  "claude-3-opus-latest",
+  "claude-3-5-haiku-20241022",
+  "claude-3-5-haiku-latest",
+  "claude-3-5-sonnet-20240620",
+  "claude-3-5-sonnet-20241022",
+  "claude-3-5-sonnet-latest",
 ];
 
 const baiduModels = [
-//  "ernie-4.0-turbo-8k",
-//  "ernie-4.0-8k",
-//  "ernie-4.0-8k-preview",
-//  "ernie-4.0-8k-preview-0518",
-//  "ernie-4.0-8k-latest",
-//  "ernie-3.5-8k",
-//  "ernie-3.5-8k-0205",
-//  "ernie-speed-128k",
-//  "ernie-speed-8k",
-//  "ernie-lite-8k",
-//  "ernie-tiny-8k",
+  "ernie-4.0-turbo-8k",
+  "ernie-4.0-8k",
+  "ernie-4.0-8k-preview",
+  "ernie-4.0-8k-preview-0518",
+  "ernie-4.0-8k-latest",
+  "ernie-speed-128k",
+  "ernie-speed-8k",
+  "ernie-lite-8k",
+  "ernie-tiny-8k",
 ];
 
 const bytedanceModels = [
-//  "Doubao-lite-4k",
-//  "Doubao-lite-32k",
-//  "Doubao-lite-128k",
-//  "Doubao-pro-4k",
-//  "Doubao-pro-32k",
-//  "Doubao-pro-128k",
+  "Doubao-lite-4k",
+  "Doubao-lite-32k",
+  "Doubao-lite-128k",
+  "Doubao-pro-4k",
+  "Doubao-pro-32k",
+  "Doubao-pro-128k",
 ];
 
 const alibabaModes = [
-//  "qwen-turbo",
-//  "qwen-plus",
-//  "qwen-max",
-//  "qwen-max-0428",
-//  "qwen-max-0403",
-//  "qwen-max-0107",
-//  "qwen-max-longcontext",
+  "qwen-turbo",
+  "qwen-plus",
+  "qwen-max",
+  "qwen-max-0428",
+  "qwen-max-0403",
+  "qwen-max-0107",
+  "qwen-max-longcontext",
 ];
 
 const tencentModels = [
-//  "hunyuan-pro",
-//  "hunyuan-standard",
-//  "hunyuan-lite",
-//  "hunyuan-role",
-//  "hunyuan-functioncall",
-//  "hunyuan-code",
-//  "hunyuan-vision",
+  "hunyuan-pro",
+  "hunyuan-standard",
+  "hunyuan-lite",
+  "hunyuan-role",
+  "hunyuan-functioncall",
+  "hunyuan-code",
+  "hunyuan-vision",
 ];
 
 const moonshotModes = [
-//  "moonshot-v1-8k",
-//  "moonshot-v1-32k",
-//  "moonshot-v1-128k"
+  "moonshot-v1-8k",
+  "moonshot-v1-32k",
+  "moonshot-v1-128k"
 ];
 
 const iflytekModels = [
-//  "general",
-//  "generalv3",
-//  "pro-128k",
-//  "generalv3.5",
-//  "4.0Ultra",
+  "general",
+  "generalv3",
+  "pro-128k",
+  "generalv3.5",
+  "4.0Ultra",
 ];
 
 const xAIModes = [
-//  "grok-beta"
+  "grok-beta"
 ];
 
 const chatglmModels = [
-//  "glm-4-plus",
-//  "glm-4-0520",
-//  "glm-4",
-//  "glm-4-air",
-//  "glm-4-airx",
-//  "glm-4-long",
-//  "glm-4-flashx",
-//  "glm-4-flash",
+  "glm-4-plus",
+  "glm-4-0520",
+  "glm-4",
+  "glm-4-air",
+  "glm-4-airx",
+  "glm-4-long",
+  "glm-4-flashx",
+  "glm-4-flash",
 ];
 
 let seq = 1000; // 内置的模型序号生成器从1000开始
