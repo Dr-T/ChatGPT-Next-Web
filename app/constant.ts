@@ -308,15 +308,6 @@ export const VISION_MODEL_REGEXES = [
 export const EXCLUDE_VISION_MODEL_REGEXES = [/claude-3-5-haiku-20241022/];
 
 const openaiModels = [
-  "gpt-3.5-turbo",
-  "gpt-3.5-turbo-1106",
-  "gpt-3.5-turbo-0125",
-  "gpt-4",
-  "gpt-4-0613",
-  "gpt-4-32k",
-  "gpt-4-32k-0613",
-  "gpt-4-turbo",
-  "gpt-4-turbo-preview",
   "gpt-4o",
   "gpt-4o-2024-05-13",
   "gpt-4o-2024-08-06",
@@ -324,12 +315,13 @@ const openaiModels = [
   "chatgpt-4o-latest",
   "gpt-4o-mini",
   "gpt-4o-mini-2024-07-18",
-  "gpt-4-vision-preview",
-  "gpt-4-turbo-2024-04-09",
-  "gpt-4-1106-preview",
   "dall-e-3",
   "o1-mini",
   "o1-preview",
+  "claude-3-5-sonnet-20240620@OpenAI",
+  "claude-3-5-sonnet-20241022@OpenAI",
+  "gemini-2.0-flash-exp@OpenAI",
+  "gemini-2.0-flash-thinking-exp-1219@OpenAI",
 ];
 
 const googleModels = [
@@ -592,5 +584,5 @@ export const PLUGINS = [
   { name: "Search Chat", path: Path.SearchChat },
 ];
 
-export const SAAS_CHAT_URL = "https://nextchat.dev/chat";
-export const SAAS_CHAT_UTM_URL = "https://nextchat.dev/chat?utm=github";
+export const SAAS_CHAT_URL = "https://chatx.tx88.eu.org";
+export const SAAS_CHAT_UTM_URL = "https://chatx.tx88.eu.org?utm=github";
