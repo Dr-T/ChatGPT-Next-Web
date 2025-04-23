@@ -520,6 +520,7 @@ const openaiModels = [
   "o3-mini",
   "o3",
   "o4-mini",
+  "gemini-2.0-flash-exp@OpenAI",
 ];
 
 const googleModels = [
@@ -847,5 +848,5 @@ export const internalAllowedWebDavEndpoints = [
 
 export const DEFAULT_GA_ID = "G-89WN60ZK2E";
 
-export const SAAS_CHAT_URL = "https://nextchat.club";
-export const SAAS_CHAT_UTM_URL = "https://nextchat.club?utm=github";
+export const SAAS_CHAT_URL = "https://chatx.tx88.eu.org";
+export const SAAS_CHAT_UTM_URL = "https://chatx.tx88.eu.org?utm=github";
